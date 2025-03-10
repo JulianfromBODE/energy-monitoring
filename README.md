@@ -63,7 +63,7 @@ Um historische Lastgangdaten zu importieren:
    pip install -r requirements.txt
    ```
 
-2. Führe das Import-Skript aus:
+4. Führe das Import-Skript aus:
    ```bash
    python import_data.py pfad/zur/datei.csv measurement_name [kunden_id]
    ```
@@ -78,6 +78,8 @@ Um historische Lastgangdaten zu importieren:
    - `type`: Art der Messung (z.B. "consumption", "production")
 
 ## Wartung
+
+TODO .bat skripts für Windows hinzufügen!
 
 ### Updates
 
