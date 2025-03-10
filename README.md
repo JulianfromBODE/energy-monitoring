@@ -45,7 +45,19 @@ Ein Tool zur Speicherung, Visualisierung und Analyse von Energiedaten mit Influx
 
 Um historische Lastgangdaten zu importieren:
 
-1. Installiere die Python-Abhängigkeiten:
+#TODO Virtuelle Umgebung! 
+
+1. Erstelle eine virtuelle Umgebung
+   ```bash
+   python -m venv venv
+   ```
+
+2. Aktiviere die Umgebung
+   ```bash
+   .\venv\Scripts\activate
+   ```
+
+3. Installiere die Python-Abhängigkeiten:
    ```bash
    cd data-import
    pip install -r requirements.txt
