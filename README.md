@@ -11,7 +11,7 @@ Ein Tool zur Speicherung, Visualisierung und Analyse von Energiedaten mit Influx
 
 ## Voraussetzungen
 
-- Docker und Docker Compose
+- Docker und Docker Compose (!)
 - Git (optional, für Updates)
 - Python 3.8+ (für Datenimport-Skripte)
 
@@ -27,9 +27,13 @@ Ein Tool zur Speicherung, Visualisierung und Analyse von Energiedaten mit Influx
    - Bearbeite die `.env`-Datei und passe die Zugangsdaten an
    - Passe ggf. die Docker-Compose-Datei an deine Bedürfnisse an
 
-3. Installation starten:
+3. Installation starten (im als Admin geöffnetem Terminal):
    ```bash
    ./scripts/install.sh
+   ```
+   unter Windows:
+   ```bash
+   .\scripts\install.bat
    ```
 
 4. Nach der Installation kannst du auf folgende Dienste zugreifen:
