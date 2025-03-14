@@ -41,6 +41,25 @@ Ein Tool zur Speicherung, Visualisierung und Analyse von Energiedaten mit Influx
    - Grafana: http://localhost:3000
    - Home Assistant: http://localhost:8123
 
+## Neustart
+
+1. Überprüfen ob Docker läuft:
+   ```bash
+   docker info
+   ```
+   Falls Docker nicht läuft muss das Programm gestartet werden entweder über Docker Dektop der über den Befehl:
+ ```bash
+   Get-Service *docker*
+   Start-Service *docker*
+   docker-compose up -d
+   ```
+
+In der PowerShell mit Administratorrechten:
+powershellKopierenGet-Service *docker*
+Wenn der Docker-Dienst nicht läuft, starte ihn:
+powershellKopierenStart-Service *docker*
+2. dsf
+
 ## Datenimport
 
 Um historische Lastgangdaten zu importieren:
